@@ -1,19 +1,20 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void main(){
+int main(){
 
     int a=0;
     printf("entrer un nombre\n");
     scanf("%d", &a);
     if(a>0){
-        printf("a est un nombre positif");
+        printf("%d est un nombre positif", &a);
     }else if (a<0){
-        printf("a est un nombre negatif");
+        printf("%d est un nombre negatif", &a);
     }
     else{
-        printf("a est un nombre nulle");
+        printf("%d est un nombre nulle", &a);
     }
 
     getch();
+    return 0;
 }
