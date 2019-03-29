@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int main(){
+void main(){
 
     int a=0;
+    int b=0;
     printf("entrer un nombre\n");
     scanf("%d", &a);
     if(a>0){
@@ -16,5 +17,5 @@ int main(){
     }
 
     getch();
-    return 0;
+    //return 0;
 }
